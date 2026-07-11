@@ -1,0 +1,37 @@
+/*MAIN*/
+
+
+main {
+    margin: 4px 0px; /*small separation from header and footer*/
+}
+
+/*1ST section with cover*/
+#section_Cover {
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 50px 100px;
+    color: white;
+    font-family: "Montserrat";
+}
+
+.section_Cover-titleContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    letter-spacing: 1%;
+}
+
+.section_Cover-titleContainer h1 {
+    font-size: 3rem;
+    text-transform: capitalize;
+    font-style: oblique;
+    font-weight: 900;
+    line-height: 5rem;
+}
+
+.companyColorText {
+    color: #FAC100;
+}
