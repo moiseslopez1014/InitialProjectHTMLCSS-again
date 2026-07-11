@@ -35,3 +35,29 @@ main {
 
 /*2ND section with statistics*/
 
+#section_Statistics {
+    background-color: #F9F9F9;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 4px solid #C0C0C0;
+    height: 400px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section_Statistics-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Montserrat';
+    gap: 10px;
+}
+
+.section_Statistics-value {
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.section_Statistics-description {
+    font-size: 32px;
+}
