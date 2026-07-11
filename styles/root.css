@@ -11,3 +11,13 @@
 body {
     width: 1440px;
 }
+
+/*pseudovariable*/
+
+.companyColorText {
+    color: #FAC100;
+}
+
+.companyColor {
+    background-color: #FAC100;
+}
