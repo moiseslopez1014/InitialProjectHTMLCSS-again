@@ -1,42 +1,30 @@
-/* ROOT */
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-/*Temporal width*/
-
 body {
-    width: 1440px;
+  width: 1440px;
 }
-
-/*pseudovariable*/
-
 .companyColorText {
-    color: #FAC100;
+  color: #fac100;
 }
-
 .companyColor {
-    background-color: #FAC100;
+  background-color: #fac100;
 }
-
 .companyButton {
-    color: #FFF;
-    font-family: "Montserrat";
-    font-weight: 600;
-    font-size: 19px;
-    border-style: hidden;
-    border-radius: 10px;
-    width: 150px;
-    height: 60px;
+  color: #fff;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 19px;
+  border-style: hidden;
+  border-radius: 10px;
+  width: 150px;
+  height: 60px;
 }
-
 .companyButton:hover {
-    background-color: #fac000a0;
+  background-color: #fac000a0;
 }
-
 .companyButton:active {
-    background-color: #fac00056;
+  background-color: #fac00056;
 }

@@ -1,35 +1,27 @@
-/*HEADER*/
-
-
 header {
-    /*give the color, distribute elements put them in center with a padding and align properties*/
-    background-color: #FAC100;
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    padding: 8px 100px;
-    justify-content: space-between;
-    align-items: center;
+  background-color: #fac100;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  padding: 8px 100px;
+  justify-content: space-between;
+  align-items: center;
 }
-
 header a {
-    /*remove default link visual, set style, size and font*/
-    text-decoration: none;
-    color: #FFF;
-    font-family: 'Montserrat';
-    font-weight: 700;
-    padding: 5px;
-    display: flex;
-    align-items: center;
-    font-size: 1.1rem;
+  text-decoration: none;
+  color: #fff;
+  font-family: "Montserrat";
+  font-weight: 700;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
 }
-/*set special visual to add a bottom line and place the link higher to highlight. for both active and hover*/
-.header_link-active, header a:hover {
-    transform: translateY(-4px);
-    border-bottom: 3px solid #FFF;
+.header_link-active,
+header a:hover {
+  transform: translateY(-4px);
+  border-bottom: 3px solid #fff;
 }
-/*some separation between links*/
-header nav{
-    display: flex;
-    gap: 35px;
+header nav {
+  display: flex;
+  gap: 35px;
 }
-
