@@ -1,0 +1,48 @@
+/*FOOTER*/
+
+footer {
+    background-color: #000;
+    color: #FFF;
+    font-family: "Montserrat";
+}
+
+#sectionFooter_Links {
+    border-bottom: 2px solid #FFF;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    padding: 30px 100px;
+    gap: 40px;
+}
+
+.footer_description-Container p {
+    word-spacing: 3px;
+    margin-top: 20px;
+}
+
+.footer_Links-Container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-weight: 500;
+}
+
+.footer_Links-Container h2 {
+    margin-bottom: 20px;
+}
+
+.footer_Links-Container a {
+    text-decoration: none;
+    color: #FFF;
+}
+.footer_Links-Container a:hover {
+    text-decoration: underline;
+}
+
+/*COPYRIGHT*/
+
+#sectionFooter_Copyright {
+    padding: 50px;
+    font-weight: 500;
+    text-align: center;
+    font-size: 1.2rem;
+}
