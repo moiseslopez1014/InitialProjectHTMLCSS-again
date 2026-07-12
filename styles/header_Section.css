@@ -1,0 +1,27 @@
+header {
+  background-color: #fac100;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  padding: 8px 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+header a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Montserrat";
+  font-weight: 700;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+}
+.header_link-active,
+header a:hover {
+  transform: translateY(-4px);
+  border-bottom: 3px solid #fff;
+}
+header nav {
+  display: flex;
+  gap: 35px;
+}

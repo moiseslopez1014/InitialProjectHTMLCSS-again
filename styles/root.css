@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 1440px;
+}
+.companyColorText {
+  color: #fac100;
+}
+.companyColor {
+  background-color: #fac100;
+}
+.companyButton {
+  color: #fff;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 19px;
+  border-style: hidden;
+  border-radius: 10px;
+  width: 150px;
+  height: 60px;
+}
+.companyButton:hover {
+  background-color: #fac000a0;
+}
+.companyButton:active {
+  background-color: #fac00056;
+}
