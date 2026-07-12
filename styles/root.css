@@ -21,3 +21,21 @@ body {
 .companyColor {
     background-color: #FAC100;
 }
+
+.companyButton {
+    color: #FFF;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 20px;
+    padding: 20px 25px;
+    border-style: hidden;
+    border-radius: 10px;
+}
+
+.companyButton:hover {
+    background-color: #fac000a0;
+}
+
+.companyButton:active {
+    background-color: #fac00056;
+}
