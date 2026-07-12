@@ -112,3 +112,45 @@ main {
     background-color: #FAC100;
     border-radius: 100%
 }
+
+/*5TH SECTION CONTACT*/
+
+#section_contact {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    font-family: "Montserrat";
+    font-size: 1.6rem;
+}
+
+.section_contact-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 36px 100px 36px 0;
+}
+
+#contact_input-name {
+    grid-column: 1;
+    grid-row: 1;
+}
+#contact_input-email {
+    grid-column: 2;
+    grid-row: 1;
+}
+#contact_image {
+    grid-column: 3;
+    grid-row: 1 / 4;
+    width: 150%;
+
+}
+#contact_input-message {
+    grid-column: 1 / 3;
+    grid-row: 2 / 4;
+}
+
+.section_contact-grid input {
+    font-size: 28px;
+    padding: 0 22px;
+    color: rgb(227, 227, 227);
+}
